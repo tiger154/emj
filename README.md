@@ -104,3 +104,4 @@ As you can see it's clear we can see totally diffrent theme as well here
   3) emojionearea: https://github.com/mervick/emojionearea 
 
 
+If this library is useful for you, say thanks <a href='https://paypal.me/jeonhwanwon' target='_blank'>buying me a beer</a> :beer:!
