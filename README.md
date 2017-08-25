@@ -4,7 +4,7 @@ It support theme such as emojione, twemoji and even you can set your own theme
 
 You want to see realtime demo? https://jsfiddle.net/75hkejpr/ 
 
-## Screen shot how it works 
+## Screen shot 
 As you can see it's clear we can see totally diffrent theme as well here
 <img src='https://user-images.githubusercontent.com/2743415/29703976-c7e7b070-89b2-11e7-88e7-8b48e719cc31.png'>
 
