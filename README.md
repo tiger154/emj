@@ -24,6 +24,10 @@ As you can see it's clear we can see totally diffrent theme as well here
   - You can controll each tab(filters) 
  2) Custom emoji 
   - You can set your own emoji so easy
+  
+ * It has almost functionality from emojionearea(https://github.com/mervick/emojionearea) 
+   but not support (textarea, input) fields one. 
+   I recommend to change textarea or input field to simple div(contenteditable).
 ```
 
 
