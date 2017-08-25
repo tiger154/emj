@@ -101,7 +101,7 @@ As you can see it's clear we can see totally diffrent theme as well here
 ```
 
 ## Referrence
-- Thank you for all great lib contributers 
+- Thank you for all great lib contributers, especially for emojionearea which gave me good Idea how to make it better :)  
 
   1) emojione: https://github.com/emojione/emojione
   2) twemoji: https://github.com/mervick/emojionearea
