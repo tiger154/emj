@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../css/emj.css" />
+    <style>
+        body {
+            height: 100%;
+            font-family: 'Open Sans', sans-serif;
+            color: #1f1f26;
+            font-size: 16px;
+            line-height: 22px;
+            background-color: #f7f7f7;
+        }
+        /* This is for placeholder you can define if you want placeholder with contenteditable */
+        [contenteditable=true]:empty:before{
+            content: attr(placeholder);
+            display: block; /* For Firefox */
+        }
+        div[contenteditable=true] {
+            border: 1px solid lightgrey;
+            width: 290px;
+            padding: 5px;
+            background: white;
+        }
+        .emj-editor .emj-icon {
+            width: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="../libs/jquery/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../libs/jquery/jquery-ui.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../libs/underscore/underscore.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../libs/emojione/emojione.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../emj.js" charset="utf-8"></script>
+</head>
+<body>
+    <h3>
+        Jeonhwan's Emj plugin demo
+    </h3>
+    <br>
+    1. Emojione theme
+    <div style='width:300px;' >
+        <div class="emoji1" contenteditable="true"  placeholder="Say something or paste a link...">  </div>
+    </div>
+    <br><br>
+    2. Twemoji theme
+    <div style='width:300px;' >
+        <div class="emoji2" contenteditable="true"  placeholder="Say something or paste a link...">  </div>
+    </div>
+<script>
+    $(document).ready(function() {
+        // emojione
+        $.fn.emj.defaults.themes.emojione.imgPath = 'https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/';
+        $.fn.emj.defaults.themes.twemoji.imgPath = 'https://abs.twimg.com/emoji/v2/72x72/';
+
+        $('.emoji1').emj({
+            theme: 'emojione'
+            , themes: {
+                emojione: {"imgPath": "https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/"}
+            }
+        });
+        // twemoji
+        $('.emoji2').emj({
+            theme: 'twemoji'
+        });
+    });
+</script>
+
+</body>
+</html>
