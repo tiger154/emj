@@ -540,8 +540,8 @@
 				"name" : "emojione",
 				"version": "3.1.0",
 				"size": "32",
-				"imgPath": "/images/emoji/emojione/3.1.0/png/32/"
-				//https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/
+				"imgPath": "https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/"
+				// It support even local path: /images/emoji/emojione/3.1.0/png/32/
 			},
 			twemoji: {
 				"name" : "twemoji",
